@@ -1,0 +1,31 @@
+demo
+
+The demo module is used for installing apache and openssh with sshd
+denying root login.
+
+This module uses preconfigured files for openssh instead of augeas 
+as I feel that the complete set of configuration options should be 
+defined as part of a security model instead of taking an unknown 
+set of options and only defining a specific subset.
+
+
+License
+-------
+Apache License, Version 2.0
+
+Contact
+-------
+Joe Julian <me@joejulian.name>
+
+Support
+-------
+
+Please log tickets and issues at https://github.com/joejulian/joejulian-demo[github]
+
+Usage
+-----
+
+----------------------------------------------------------------------
+class { 'demo': }
+----------------------------------------------------------------------
+

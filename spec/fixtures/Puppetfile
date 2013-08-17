@@ -1,0 +1,6 @@
+forge "http://forge.puppetlabs.com"
+
+mod 'puppetlabs/apache', '>= 0.8.1'
+mod 'openssh',
+  :git => 'https://github.com/joejulian/joejulian-openssh.git'
+
